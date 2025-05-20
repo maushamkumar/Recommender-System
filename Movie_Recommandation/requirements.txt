@@ -1,3 +1,8 @@
 scikit-learn
 pandas 
 numpy
+PyYAML
+scipy
+streamlit
+
+-e.
