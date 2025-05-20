@@ -1,0 +1,21 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "books_recommender"
+version = "0.0.1"
+description = "A small local package for ML-based books recommendations"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+  { name = "Mausham Kumar", email = "Maushamkumarr26@gmail.com" }
+]
+dependencies = []            # same as LIST_OF_REQUIREMENTS in setup.py
+
+[tool.setuptools.packages.find]
+# mimics find_packages()
+where = ["."]
+include = ["books_recommender*"]

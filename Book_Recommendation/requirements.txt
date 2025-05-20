@@ -1,3 +1,8 @@
 scikit-learn
 pandas 
 numpy
+PyYAML
+streamlit
+
+-e .
+# -e .: This line indicates that the package is installed in editable mode, allowing for changes to be reflected without reinstallation.
