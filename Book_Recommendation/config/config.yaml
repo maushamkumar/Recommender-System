@@ -13,3 +13,6 @@ data_validation_config:
   serialized_objects_dir: serialized_objects
   books_csv_file: BX-Books.csv
   ratings_csv_file: BX-Book-Ratings.csv
+
+data_transformation_config:
+  transformed_data_dir: transformed_data
