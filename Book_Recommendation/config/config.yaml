@@ -16,3 +16,11 @@ data_validation_config:
 
 data_transformation_config:
   transformed_data_dir: transformed_data
+
+model_trainer_config:
+  trained_model_dir: trained_model
+  trained_model_name: model.pkl
+
+
+recommendation_config:
+  poster_api_url: https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US
